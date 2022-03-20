@@ -1,0 +1,176 @@
+/* 1080 px */
+@media (max-width: 1024px) {
+  main {
+    margin-left: 0;
+  }
+  /* header component */
+  .header {
+    transform: translateX(-300px);
+  }
+  .rv {
+    transform: translateX(0);
+  }
+  .mobile_menu {
+    display: block;
+  }
+  /* header component end */
+
+  /* fact component */
+  .count_box .count_inner_box span {
+    font-size: 2.5rem;
+  }
+  /* fact component end */
+
+  /* services component */
+  .service_box .service_box_meta h3 {
+    font-size: 1rem;
+  }
+  .service_box .service_box_meta p {
+    font-size: 14px;
+  }
+  /* services component end */
+
+  /* footer */
+  footer {
+    display: none;
+  }
+}
+
+/* 768 px */
+@media (max-width: 768px) {
+  /* About component */
+  .about_main_grid {
+    grid-template-columns: 1fr;
+    grid-row-gap: 1rem;
+  }
+  .about_meta_grid {
+    grid-template-columns: 1fr;
+  }
+  /* About component end */
+
+  /* fact component */
+  .fact_grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+  /* fact component end */
+
+  /* skill component */
+  .skill_grid {
+    grid-template-columns: 1fr;
+  }
+  /* skill component end */
+
+  /* resume component */
+  .resume_grid {
+    grid-template-columns: 1fr;
+  }
+  /* resume component end */
+
+  /* portfolio component */
+  .portfolio_grid {
+    grid-template-columns: repeat(2,1fr);
+  }
+  /* portfolio component end */
+
+  /* services component */
+  .services_grid {
+    grid-template-columns: repeat(2,1fr);
+  }
+  /* services component end */
+
+  /* services component */
+  .contact_grid {
+    grid-template-columns: 1fr;
+    grid-row-gap: 0.938rem;
+  }
+  /* services component end */
+}
+
+/* 425 px */
+@media (max-width: 425px) {
+
+  /* bnner component */
+  .banner .banner_container h1 {
+    font-size: 28px;
+  }
+.banner .banner_container p {
+  font-size: 20px;
+}  
+
+  /* bnner component end */
+
+  /* fact component */
+  .fact_grid {
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+  /* fact component end */
+
+  /* skill component */
+  .skill_grid {
+    grid-template-columns: 1fr;
+  }
+  /* skill component end */
+
+  /* resume component */
+  .resume_grid {
+    grid-template-columns: 1fr;
+  }
+  .resume_content_box .inner_resume_content_box h4 {
+    font-size: 1rem;
+  }
+  .resume_content_box h3 {
+    font-size: 25px;
+  }
+  /* resume component end */
+
+  /* portfolio component */
+  .portfolio_grid {
+    grid-template-columns: 1fr;
+  }
+  /* portfolio component end */
+
+  /* services component */
+  .services_grid {
+    grid-template-columns: 1fr;
+  }
+
+  .service_box .service_box_icon i {
+    width: 3rem;
+    height: 3rem;
+  }
+  /* services component end */
+
+  /* services component */
+  .contact_grid {
+    grid-template-columns: 1fr;
+    grid-row-gap: 0.938rem;
+  }
+  form .input_grid {
+  grid-template-columns: 1fr;
+  /* padding: 0.626rem; */
+}
+  /* services component end */
+
+
+  /* contact component */
+  form .input_grid {
+  grid-template-columns: 1fr;
+  /* padding: 0.626rem; */
+}
+  /* contact component end */
+
+  /* footer */
+   footer {
+     display: block;
+     position:static;
+     margin: auto;
+    background-color: var(--bg-nav);
+    width: 100%;
+    color: var(--primary-light) !important;
+}
+   }
+  /* footer end */
+
+}
